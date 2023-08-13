@@ -78,7 +78,7 @@
         const data = JSON.stringify(csvToArray(text));
         console.log(typeof data);
         localStorage.setItem("dataCsv", data);
-        location.href = 'result.html';
+        location.href = '/read-csv-js/result.html';
         };
         
         reader.readAsText(input);
